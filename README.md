@@ -28,6 +28,4 @@ Cuando se ejecuta el programa:
 * Tener Python instalado para poder ejecutar el código.
 * Conocer Markdown para ver este README claramente en GitHub si lo subes.
 
----
 
-Si quieres, también te hago una **versión con emojis y estilo bonito para GitHub** 😄🚀. ¿Quieres eso?
