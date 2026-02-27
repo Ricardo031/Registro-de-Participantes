@@ -8,9 +8,15 @@ while n < people_registered:
     
     print(f"\n--- Registering person #{n + 1} ---")
 
-    name = str(input("Please enter your full name: "))
-
-    age = int(input("Please enter your age: "))
+    name = input("Please enter your full name: ")
+    
+    try:
+        age = int(input("Please enter your age: "))
+        if age <=0:
+            print("Age not valid")
+            continue
+    except ValueError:
+                print("invalid value")
 
     acknowledge = int(input("Do you have basic acknowledge developing?\n Yes (1) \n No (2) \n : "))
     print("")
